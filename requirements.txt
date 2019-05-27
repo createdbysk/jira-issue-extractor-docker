@@ -1,0 +1,3 @@
+git+https://gitlab.com/integrate-with-jira/jira-issue-extractor.git@0.1.0
+python-dotenv
+jira
