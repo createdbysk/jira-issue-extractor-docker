@@ -13,8 +13,6 @@ RUN apk add --no-cache git \
                        libffi-dev \
                        openssl-dev
 
-# RUN apt-get update && apt-get install -y git
-
 COPY requirements.txt /
 RUN pip install -t /requirements -r /requirements.txt
 
